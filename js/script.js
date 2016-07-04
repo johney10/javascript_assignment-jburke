@@ -20,8 +20,15 @@
 
 	}
 
+	function learnMore(){
+
+		$("#learnmoretext").slideDown();
+		$(".learnmore").hide();
+	}
+
 	$(".readmore").click(readMore);
 	$(".readless").click(readLess);
+	$(".learnmore").click(learnMore);
 
 	
 
