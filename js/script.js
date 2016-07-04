@@ -1,7 +1,7 @@
 //$(document).ready function(){
 
 
-	function learnMore(){
+	function readMore(){
 
 
 		$("#show-this-on-click").slideDown();
@@ -10,7 +10,18 @@
 	 
 	}
 
-	$(".readmore").click(learnMore);
+	function readLess(){
+
+		
+		$("#show-this-on-click").hide();
+		$(".readless").slideUp();
+		$(".readmore").show();
+
+
+	}
+
+	$(".readmore").click(readMore);
+	$(".readless").click(readLess);
 
 	
 
